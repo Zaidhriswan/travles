@@ -1,0 +1,50 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+  padding: 50px;
+  text-align: center;
+}
+
+body{
+  background:url(https://media.istockphoto.com/id/484389570/photo/himalayas.jpg?s=612x612&w=0&k=20&c=6jM32XJBWlvv6x7AF-av52jlncPkz5hn_AEhjaDSFYI=);
+  background-size: cover;
+  background-attachment: fixed;
+}
+about img{
+  width: 100%;
+}
+#about img{
+  height: 400px;
+  object-fit: cover;
+}
+h3{
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.flexbox{
+  display: flex;
+  gap: 10px;
+  pading:10px;
+  overflow: scroll;
+}
+
+.flexbox img{
+  flex: 1;
+  height: 200px;
+}
+
+.flexbox img:hover{
+  border: 5px solid black;
+  box-shadow: 0px 0px 10px grey ;
+}
+.flexbox img:active{
+  border: 1px solid blue;
+  box-shadow: px 0px 10px grey ;
+  transform: scale(0,0);
+}
